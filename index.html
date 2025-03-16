@@ -20,46 +20,57 @@
 </head>
 <body>
   <div class="rating-container">
-
     <!-- Rating state start -->
-    <div class="star-icon">
-      <img src="images/icon-star.svg" alt="star icon">
+    <div class="first-section">
+      <div class="star-icon">
+        <img src="images/icon-star.svg" alt="star icon">
+      </div>
+
+      <div class="question">How did we do?</div>
+
+      <div class="desc">
+        Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+      </div>
+
+      <div class="rating-numbers">
+        <button class="rating-button">1</button> 
+        <button class="rating-button">2</button>
+        <button class="rating-button">3</button>
+        <button class="rating-button">4</button>
+        <button class="rating-button">5</button>
+      </div>
+
+      <button class="submit-button">SUBMIT</button>
     </div>
-
-    <div class="question">How did we do?</div>
-
-    <div class="desc">
-      Please let us know how we did with your support request. All feedback is appreciated 
-    to help us improve our offering!
-    </div>
-
-    <div class="rating-numbers">
-      <button class="rating-button">1</button> 
-      <button class="rating-button">2</button>
-      <button class="rating-button">3</button>
-      <button class="rating-button">4</button>
-      <button class="rating-button">5</button>
-    </div>
-
-    <div class="submit-button">SUBMIT</div>
-  </div>
-
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-
-    You selected <!-- Add rating here --> out of 5
-
-    Thank you!
-
-    We appreciate you taking the time to give a rating. If you ever need more support, 
-    don’t hesitate to get in touch!
+    <div class="thank-you-state">
+      <div class="thank-you-image">
+        <img src="images/illustration-thank-you.svg" alt="ty img">
+      </div>
+      <div class="final-rating">
+        You selected 
+        <span id="user-rating"></span> <!-- Add rating here -->
+        out of 5
+      </div>
+  
+      <div class="thank-you">Thank you!</div>
+  
+      <div class="appreciate">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </div>
+    </div>
+    <!-- Thank you state end -->
+  </div>
 
   <script src="script.js"></script>
-    <!-- Thank you state end -->
-  <div class="attribution">
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Bradley Diep</a>.
-  </div>
+  </div> -->
 </body>
 </html>

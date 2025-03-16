@@ -89,9 +89,9 @@ body{
     text-align: center;
     padding: 15px 40px;
     border-radius: 40px;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 0.1rem;
+    border: none;
+    width: 100%;
     
     background-color:hsl(25, 97%, 53%);
     color:hsl(216, 12%, 8%);
@@ -100,4 +100,51 @@ body{
 .submit-button:hover{
     background-color: hsl(0, 0%, 100%);
     cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.appear{
+    display: block;
+}
+
+.thank-you-state{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.thank-you-image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.final-rating{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: fit-content;
+    margin: auto;
+    
+    background-color:hsl(212, 15%, 24%);
+    color:hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.appreciate{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
