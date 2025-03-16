@@ -4,12 +4,12 @@
 //     btnEl.classList.add('special');
 // });
 
-const btnElList = document.querySelectorAll('.rating-button');
+const button_list = document.querySelectorAll('.rating-button');
 
-btnElList.forEach(btnEl => {
-    btnEl.addEventListener('click', () => {
-        document.querySelector('.special')?.classList.remove('special');
-        btnEl.classList.add('special');
+button_list.forEach(button => {
+    button.addEventListener('click', () => {
+        document.querySelector('.rating-button-clicked')?.classList.remove('rating-button-clicked');
+        button.classList.add('rating-button-clicked');
     }); 
 });
 
